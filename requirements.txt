@@ -1,0 +1,2 @@
+watchdog==2.1.9
+Pillow==9.2.0

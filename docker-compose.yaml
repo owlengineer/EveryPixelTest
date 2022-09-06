@@ -1,0 +1,15 @@
+version: '3'
+services:
+  everypixeltest:
+    build:
+      context: .
+      dockerfile: ./Dockerfile
+      args:
+        INPUT_PATH: /code/input
+        OUTPUT_PATH: /code/output
+    env_file:
+      - .env
+    volumes:
+     - .:/code
+     - /home/owlengineer/Trash/input:${INPUT_PATH}
+     - /home/owlengineer/Trash/output:${OUTPUT_PATH}
