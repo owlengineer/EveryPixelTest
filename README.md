@@ -17,3 +17,7 @@
 ## Deploy
 
 ```docker-compose up```
+
+## Демо
+
+https://drive.google.com/file/d/11WquHzeLHO0MKpiAIU5v9GD5dzwwqoiU/view?usp=sharing
